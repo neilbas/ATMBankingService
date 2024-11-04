@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982c04e0-4623-4915-991a-ae03d3544971" name="Changes" comment="Test">
+    <list default="true" id="982c04e0-4623-4915-991a-ae03d3544971" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/tetsing" beforeDir="false" afterPath="$PROJECT_DIR$/Static/tetsing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmbanksystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmbanksystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmbanksystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmbanksystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/Login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/Signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/changepin.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/changepin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/deposit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/sendmoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/sendmoney.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/withdraw.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/withdraw.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -48,21 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.atmbanksystem.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\PycharmProjects\atmbanksystem\atmsystem" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="atmbanksystem" type="Python.DjangoServer" factoryName="Django server">
       <module name="atmbanksystem" />
@@ -71,6 +94,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="atmbanksystem.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -92,8 +116,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
-        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23726.102" />
+        <option value="bundled-python-sdk-5e1850174b45-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23726.102" />
       </set>
     </attachedChunks>
   </component>
@@ -107,6 +131,18 @@
       <updated>1728881975772</updated>
       <workItem from="1728881977117" duration="2918000" />
       <workItem from="1728886933315" duration="646000" />
+      <workItem from="1728893191897" duration="1592000" />
+      <workItem from="1728896826674" duration="2908000" />
+      <workItem from="1728900076296" duration="228000" />
+      <workItem from="1730099809281" duration="2445000" />
+      <workItem from="1730541253527" duration="39000" />
+      <workItem from="1730543186952" duration="225000" />
+      <workItem from="1730544963166" duration="1258000" />
+      <workItem from="1730610343543" duration="111000" />
+      <workItem from="1730611148620" duration="364000" />
+      <workItem from="1730642861806" duration="487000" />
+      <workItem from="1730710333719" duration="1261000" />
+      <workItem from="1730711615532" duration="2547000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -140,14 +176,42 @@
       <option name="project" value="LOCAL" />
       <updated>1728887279471</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testing more commints">
+      <option name="closed" value="true" />
+      <created>1728893209599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728893209599</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testing more commints">
+      <option name="closed" value="true" />
+      <created>1728893870503</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728893870503</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Testing more commints" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing more commints" />
   </component>
 </project>

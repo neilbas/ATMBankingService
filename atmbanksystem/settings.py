@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!n^ybogujdlbwm(^*2y$0fzj9%@id#q1l^d=20g-+h8t0ynj3&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -55,7 +55,7 @@ ROOT_URLCONF = 'atmbanksystem.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'atmsystem/templates']
         ,
         'APP_DIRS': True,
         'OPTIONS': {

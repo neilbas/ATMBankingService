@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://circyl.co.uk/wp-content/uploads/2020/09/Secure-trust-bank-thumb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+   background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 10px;
+	 border-bottom: 1px solid white;
+}
+h2{
+   text-align: center;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+nav {
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    background-color: #1e3f5e;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #143f77;
+    color: white;
+}
+
+section {
+  align-self: center;
+	border: 3px solid #FFFFFF;
+    background-color: #fff;
+   padding-top: 5px;
+    padding-right: 80px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    margin: 100px;
+    border-radius: 30px;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+    max-width: 600px; 
+    
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+
+
+form button[type="submit"],
+form button[type="button"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+form button[type="submit"]:hover,
+form button[type="button"]:hover {
+    background-color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: white;
+    margin-top: auto;
+    border-top: 1px solid white;
+    font-size: 20px;
+}
+.center {
+  text-align: center !important;
+}
+
+.title {
+  height: 20px;
+  background-color: white;
+  border: 15px solid white;
+  color: #ffffff; /* White text */
+  position: relative;
+  top: -10px;
+  text-align:center;
+  color:black;
+  font-size: 20px;
+}
+
+.title2 {
+  height: 1px;
+  background-color: white;
+  border: 2px solid #000000;
+  color: #ffffff; /* White text */
+  position: relative;
+  top: -10px;
+}
+
+.header,
+.body {
+  border: 2px solid #000000;
+  color: #ffffff; /* White text */
+}
+
+.tbl {
+  width: 150px;
+  color: #ffffff; /* White text */
+  text-align:left;
+}
+
+.list {
+  width: 400px;
+  color: #ffffff; /* White text */
+}
+table,
+th,
+td {
+  border: 1px solid white; /* White border */
+  font-size: 15px;
+  color: #ffffff; /* White text */
+}
+
+.continue {
+  background-color: white;
+  color: #ffffff; /* White text */
+}
+
+.question {
+  background-color: #e0e0e0;
+  width: 500px;
+  color: #ffffff; /* White text */
+}
+
+.answer {
+  width: 100px;
+  color: #ffffff; /* White text */
+}
+
+.passportPic {
+  height: 180px;
+}
+
+.auth {
+  background-color: white;
+  color: #ffffff; /* White text */
+}
+.table-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.table{
+  position:relative;
+  top:-20px;
+  margin-bottom:-20px;
+  margin: 0 auto;
+}
+
+.register{
+    background-color: maroon;
+    padding: 15px;
+    margin-left: 620px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+
+}

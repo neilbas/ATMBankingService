@@ -3,47 +3,36 @@ from django.core.exceptions import ValidationError
 
 
 class BankAccount(models.Model):
-    account_number = models.CharField(max_length=20, unique=True)
-    account_holder = models.CharField(max_length=100)
-    pin = models.CharField(max_length=4)
-    balance = models.DecimalField(max_digits=10, decimal_places=2, default=0.00)
+    account_number = models.CharField(max_length=20)
+    balance = models.DecimalField(max_digits=10, decimal_places=2)
 
     def deposit(self, amount):
         if amount <= 0:
-            raise ValidationError("Deposit amount must be greater than zero.")
+            raise ValidationError("Deposit amount must be positive.")
         self.balance += amount
         self.save()
 
     def withdraw(self, amount):
-        if amount > self.balance:
-            raise ValidationError("Insufficient funds.")
+        if amount <= 0:
+            raise ValidationError("Withdrawal amount must be positive.")
+        if self.balance < amount:
+            raise ValidationError("Insufficient balance.")
         self.balance -= amount
         self.save()
 
-    def check_balance(self):
-        return self.balance
-
     def send_money(self, recipient_account_number, amount):
-
-        try:
-            recipient = BankAccount.objects.get(account_number=recipient_account_number)
-        except BankAccount.DoesNotExist:
-            raise ValidationError("Recipient account does not exist.")
-
+        recipient = BankAccount.objects.get(account_number=recipient_account_number)
         if self.balance < amount:
-            raise ValidationError("Insufficient funds to complete the transfer.")
-
-        self.withdraw(amount)
-        recipient.deposit(amount)
+            raise ValidationError("Insufficient funds for transfer.")
+        self.balance -= amount
+        recipient.balance += amount
+        self.save()
+        recipient.save()
 
     def change_pin(self, old_pin, new_pin):
-
+        # Assuming `pin` is an attribute on the model
         if self.pin != old_pin:
-            raise ValidationError("Old PIN is incorrect.")
-        if len(new_pin) != 4:
-            raise ValidationError("New PIN must be 4 digits.")
+            raise ValidationError("Old PIN does not match.")
         self.pin = new_pin
         self.save()
 
-    def __str__(self):
-        return f"Account {self.account_number} - {self.account_holder}"
