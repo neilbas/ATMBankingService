@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Send Money</title>
+    <link rel="stylesheet" href="{% static 'changepin.css' %}">
 </head>
 <body>
-
+    <h2>Send Money</h2>
+    <section>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Send Money</button>
+    </form>
+    </section>
 </body>
 </html>

@@ -57,7 +57,7 @@ def change_pin_view(request):
         request,
         ChangePinForm,
         'PIN change successful!',
-        'changepin.html',
+        'change*-*-pin.html',
         change_pin_action
     )
 

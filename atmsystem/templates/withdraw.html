@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Withdraw</title>
+    <link rel="stylesheet" href="{% static 'changepin.css' %}">
 </head>
 <body>
-
+    <h2>Withdraw</h2>
+    <section>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Withdraw</button>
+    </form>
+    </section>
 </body>
 </html>
