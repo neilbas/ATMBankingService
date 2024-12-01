@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'changepin.css' %}">
+</head>
+<body>
+    <h2>Welcome to the ATM Banking System</h2>
+    <nav>
+        <ul>
+            <li><a href="{% url 'changepin' %}">Change PIN</a></li>
+            <li><a href="{% url 'login' %}">Login</a></li>
+            <li><a href="{% url 'deposit' %}">Deposit</a></li>
+            <li><a href="{% url 'sendmoney' %}">Send Money</a></li>
+            <li><a href="{% url 'withdraw' %}">Withdraw</a></li>
+            <li><a href="{% url 'signup' %}">Signup</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

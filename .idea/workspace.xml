@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="982c04e0-4623-4915-991a-ae03d3544971" name="Changes" comment="Changes added and design added">
+    <list default="true" id="982c04e0-4623-4915-991a-ae03d3544971" name="Changes" comment="settings updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmbanksystem.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/atmbanksystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmbanksystem/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atmsystem/templates/deposit.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/deposit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atmsystem/templates/sendmoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/sendmoney.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atmsystem/templates/withdraw.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/withdraw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmbanksystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmbanksystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/templates/changepin.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/change_pin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/templates/sendmoney.html" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/templates/send_money.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atmsystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atmsystem/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/atmsystem/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -64,6 +68,7 @@
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -71,6 +76,11 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
@@ -139,7 +149,14 @@
       <workItem from="1731920279858" duration="1258000" />
       <workItem from="1732517112804" duration="436000" />
       <workItem from="1732517564520" duration="3272000" />
-      <workItem from="1732523973370" duration="1741000" />
+      <workItem from="1732523973370" duration="2306000" />
+      <workItem from="1732526307701" duration="2795000" />
+      <workItem from="1732584371354" duration="5380000" />
+      <workItem from="1732700889467" duration="43000" />
+      <workItem from="1732893031644" duration="438000" />
+      <workItem from="1732972306733" duration="3493000" />
+      <workItem from="1733022422356" duration="999000" />
+      <workItem from="1733024146145" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <option name="closed" value="true" />
@@ -197,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730714345254</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added html for deposit, send money, and withdraw">
+      <option name="closed" value="true" />
+      <created>1732525748388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732525748388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added html for deposit, send money, and withdraw">
+      <option name="closed" value="true" />
+      <created>1732525943664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732525943664</updated>
+    </task>
+    <task id="LOCAL-00010" summary="settings updated">
+      <option name="closed" value="true" />
+      <created>1732525960917</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732525960917</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +259,8 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Testing more commints" />
     <MESSAGE value="Changes added and design added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes added and design added" />
+    <MESSAGE value="added html for deposit, send money, and withdraw" />
+    <MESSAGE value="settings updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings updated" />
   </component>
 </project>

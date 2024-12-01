@@ -3,7 +3,10 @@ from django.core.exceptions import ValidationError
 from django.contrib.auth import authenticate, login
 from .models import BankAccount
 from .forms import DepositForm, WithdrawForm, SendMoneyForm, ChangePinForm, LoginForm, SignupForm
+from django.shortcuts import render
 
+def home_view(request):
+    return render(request, 'home.html')
 def handle_form_submission(request, form_class, success_message, template_name, action):
     if request.method == 'POST':
         form = form_class(request.POST)
@@ -57,7 +60,7 @@ def change_pin_view(request):
         request,
         ChangePinForm,
         'PIN change successful!',
-        'change*-*-pin.html',
+        'change_pin.html',  # Corrected template name
         change_pin_action
     )
 
